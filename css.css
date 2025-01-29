@@ -1,0 +1,307 @@
+/*HJEM SIDEN CSS*/
+
+/* Reset CSS for basic styling */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR + LOGO + KNAP*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #131e28;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #131e28;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    max-width: 130px;
+    height: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #5b7d85;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styling for cover container */
+.cover-container {
+    background-image: url('images/coverbillede.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Basal styling for galleri og billeder */
+
+
+.image {
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #131e28;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: #131e28;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.gallery img{
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Dette sikrer, at body fylder hele viewport'en */
+    position: relative;
+}
+.content {
+    padding: 20px;
+    padding-bottom: 60px; /* Juster dette tal efter behov for at undgå overlap med footer */
+}
+
+
+/* Hover-effekt for billeder */
+.image:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #131e28;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    color: #ffffff;
+    margin-left: 20px;
+    transition: all ease 0.3s;
+    font-size: 1.2rem;
+}
+
+.social a:hover {
+    color: darkgrey;
+}
+
+/* Gør layoutet responsivt ved mindre skærme */
+@media only screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-item {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/*OM MIG SIDEN CSS*/
+
+h1 {
+    color: white;
+    margin-bottom: 0px; /* Tilføjet afstand mellem titlen og billedet */
+}
+
+.title {
+    text-align: center;
+    background-color: #131e28;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#image-section,
+#text-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrerer billedet */
+}
+
+/*MINE KOMPETENCER*/
+
+.skill-item {
+    text-align: center;
+}
+
+.skill-bar {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+[data-width="70"] {
+    background: linear-gradient(90deg, #346388 0%, #346388 70%, #ddd 70%, #ddd 100%);
+}
+
+[data-width="65"] {
+    background: linear-gradient(90deg, #2196f3 0%, #2196f3 65%, #ddd 65%, #ddd 100%);
+}
+
+[data-width="85"] {
+    background: linear-gradient(90deg, #859dd5 0%, #859dd5 85%, #ddd 85%, #ddd 100%);
+}
+
+.text-container p {
+    margin: 30px 0; /* Tilføj mellemrum over og under teksten */
+    max-width: 650px; /* Juster bredden efter behov */
+    margin: 0 auto; /* Centrerer teksten */
+}
+
+/* Gør layoutet responsivt ved mindre skærme */
+@media only screen and (max-width: 768px) {
+    .image-container img,
+    .text-container p {
+        max-width: 100%;
+    }
+}
+
+
+
+/*KONTAKT SIDEN*/
+
+h1 {
+    color: white;
+    margin-bottom: 60px; /* Tilføjet afstand mellem titlen og billedet */
+    margin-top: -40px;
+}
+
+.title2 {
+    text-align: center;
+    padding: 10px;
+    background-color: #131e28;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.centered-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.text-box2 {
+    background-color: #131e28; /* Baggrundsfarve for tekstboksen */
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%; /*bredden af tekstboksen*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerer indholdet vandret i tekstboksen */
+    text-align: center;
+
+}
+
+.full-width-image {
+    width: 100%; /* Gør billedet gå ud til siderne */
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Gør layoutet responsivt ved mindre skærme */
+@media only screen and (max-width: 768px) {
+    .text-box2
+    .full-width-image {
+        max-width: 100%;
+    }
+}
