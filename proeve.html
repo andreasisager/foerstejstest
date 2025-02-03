@@ -3,16 +3,19 @@
 <head>
     <link href="proevestylesheet.css" rel="stylesheet">
     <meta charset="utf-8"/>
-
+    <!--Refererer til min JS-fil og bruger defer, så JS først eksekveres når HTML-siden er blevet indlæst-->
     <script src="eksternt.js" defer></script>
+    <!--Første popup-boks-->
     <script>
         alert("Luk siden nu")
     </script>
 </head>
 
 <body>
+    <!--Refererer til mig JS-fil igen, så den også inkluderer body'en-->
     <script src="eksternt.js" defer></script>
     <p>Hej</p>
+    <!--Anden popup-boks-->
     <script>
         alert("Luk siden NU")
     </script>
