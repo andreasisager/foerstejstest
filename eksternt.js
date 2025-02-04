@@ -11,8 +11,8 @@ var x = 2
 var y = "4"
 var z = x + y
 
-const frugt = ["kiwi", "banan", "vandmelon"]
-getElementById("demo").innerHTML = frugt[1]
+const frugt = ["kiwi", "banan", "vandmelon"];
+document.getElementById("demo").innerHTML = frugt[1];
 
 
 
