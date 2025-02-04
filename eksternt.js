@@ -11,12 +11,12 @@ var x = 2
 var y = "4"
 var z = x + y
 
-const frugt = ["kiwi", "banan", "vandmelon"];
-document.getElementById("demo").innerHTML = frugt[2];
+var frugt = ["kiwi", "banan", "vandmelon"];
+document.getElementById("demo").innerHTML = frugt[1];
 
-if (frugt == vandmelon) { hvilkenfrugt = "dagensfrugt";
-    
+if (frugt = "vandmelon") { hvilkenfrugt = "dagensfrugt"; 
 }
+
 else {hvilkenfrugt = "maanedensfrugt"}
 
 console.log(hvilkenfrugt);
