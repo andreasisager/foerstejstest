@@ -12,7 +12,14 @@ var y = "4"
 var z = x + y
 
 const frugt = ["kiwi", "banan", "vandmelon"];
-document.getElementById("demo").innerHTML = frugt[1];
+document.getElementById("demo").innerHTML = frugt[2];
+
+if (frugt == vandmelon) { hvilkenfrugt = "dagensfrugt";
+    
+}
+else {hvilkenfrugt = "maanedensfrugt"}
+
+console.log(hvilkenfrugt);
 
 
 
