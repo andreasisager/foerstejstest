@@ -1,6 +1,6 @@
 
 //Så mit navn står i consolen
-console.log("Andreas");
+
 //Denne H1 overtager hele min body (men er nu sat som kommentar)
 //document.body.innerHTML = "<h1>Andreasermitnavn</h1>";
 
@@ -14,7 +14,7 @@ var z = x + y
 var frugt = ["kiwi", "banan", "vandmelon"];
 document.getElementById("demo").innerHTML = frugt[1];
 
-if (frugt = "vandmelon") { hvilkenfrugt = "dagensfrugt"; 
+if (frugt[1] == "vandmelon") { hvilkenfrugt = "dagensfrugt"; 
 }
 
 else {hvilkenfrugt = "maanedensfrugt"}
