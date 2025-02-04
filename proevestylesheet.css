@@ -2,6 +2,9 @@
  body{
 background-color: aqua;
  }
+ p {
+    color: #FCA311;
+ }
 
  footer {
     background-color: rgb(42, 65, 57);
