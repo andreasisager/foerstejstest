@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+
+}
+
 footer {
     background-color: black;
+}
+
+.footer-text {
+    color: white;
+    padding: 50px;
 }
 
 
