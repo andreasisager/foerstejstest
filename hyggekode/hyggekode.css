@@ -88,3 +88,25 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+* {
+    margin: 0;
+
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
