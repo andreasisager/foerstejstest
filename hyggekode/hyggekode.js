@@ -3,8 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
 //Sebastian
 $("menu").load("menu.html");
 $("main").load("main.html");
+//Sebastian
+$("footer").load("footer.html");
 //Vincent
 $("slideshow").load("slideshow.html");
+})
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,6 +36,4 @@ function showSlides(n) {
   slides[slideIndex].style.display = "block";  
   dots[slideIndex].className += " active";
 }
-//Sebastian
-$("footer").load("footer.html");
-})
+
