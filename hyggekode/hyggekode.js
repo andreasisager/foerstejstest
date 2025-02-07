@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 //Sebastian
-$("menu").load("menu.html");
+$("nav").load("menu.html");
 $("main").load("main.html");
 //Vincent
 $("#slideshow-container").load("slideshow.html");
