@@ -12,9 +12,9 @@ var y = "4"
 var z = x + y
 
 var frugt = ["kiwi", "banan", "vandmelon"];
-document.getElementById("demo").innerHTML = frugt[1];
 
-if (frugt[1] == "vandmelon") { hvilkenfrugt = "dagensfrugt"; 
+
+if (frugt[2] == "vandmelon") { hvilkenfrugt = "dagensfrugt"; 
 }
 
 else {hvilkenfrugt = "maanedensfrugt"}
@@ -22,4 +22,13 @@ else {hvilkenfrugt = "maanedensfrugt"}
 console.log(hvilkenfrugt);
 
 
+for (let i = 0; i < frugt.length; i++) {
+    console.log(frugt[i]); }
+
+function myFunction(p1) {
+     return p1 - (p1 * .25);
+}
+      
+let result = myFunction(100);
+document.getElementById("demo").innerHTML = result;
 
